@@ -1,19 +1,20 @@
-package lib.cloudist;
+package cloudist;
+import java.util.Scanner;
 
 public class Test {
 
-	/*
-	 * TODO : Learning class ının bir objesini oluşturup 
-	 * Test class ı içinde main fonksiyonda print() metodunu çağırarak ekrana "Hello World" yazdırın. 
-	 * 
-	 * */
-	
 	public static void main(String[] args) {
-			Learning obj=new Learning();
-			obj.Print();
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
 		
-		//Learning class obje oluştur
-		//print() metodunu çağırınız.
+		Learning obj=new Learning();
+		obj.Print();
+		
+		// cümledeki kelime sayisi
+		System.out.println("Bir cümle giriniz:");
+		String cumle=input.nextLine();	
+		System.out.println("Kelime sayısı:"+obj.kelimeSay(cumle));
+
 	}
 
 }
