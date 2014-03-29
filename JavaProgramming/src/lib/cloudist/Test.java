@@ -10,7 +10,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 			Learning obj=new Learning();
-			obj.print();
+			obj.Print();
 		
 		//Learning class obje oluştur
 		//print() metodunu çağırınız.
