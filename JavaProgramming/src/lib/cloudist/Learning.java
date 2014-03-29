@@ -3,7 +3,7 @@ package lib.cloudist;
 public class Learning {
 
 	
-	public void Print()
+	public static void Print()
 	{
 		System.out.println("Hello world");
 	}
